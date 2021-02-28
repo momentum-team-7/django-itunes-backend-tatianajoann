@@ -1,0 +1,115 @@
+body {
+  font-family: "Noto Sans JP";
+  background: #f0f3f3;
+  margin: 0;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.result-container {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.song-item {
+  text-align: center;
+  flex-grow: 1;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  max-width: 100px;
+  border: #f0f3f3;
+  border-style: solid;
+  padding: 10px;
+}
+
+.artist {
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 12px;
+  margin: 0 auto;
+  color: #3c1c54;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1 {
+  color: #ffffff;
+  margin: 0;
+  font-family: "Satisfy";
+  text-align: center;
+  font-size: 36px;
+  background: repeating-linear-gradient(
+    to left,
+    rgba(0, 116, 217, 0.85),
+    rgba(127, 219, 255, 0.85),
+    rgba(57, 204, 204, 0.85),
+    rgba(61, 153, 112, 0.85)
+  );
+  text-shadow: 0 0 3px #ffffff, 0 0 5px #0000ff;
+}
+
+input {
+  width: 600px;
+  outline: none;
+  border-radius: 20px;
+  border-color: #d3d3d3;
+  border-style: solid;
+  font-size: 18px;
+  font-family: "Noto Sans JP";
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.scroller {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0.1px;
+  background: #f0f3f3;
+  background: repeating-linear-gradient(
+    to left,
+    rgba(0, 116, 217, 0.85),
+    rgba(127, 219, 255, 0.85),
+    rgba(57, 204, 204, 0.85),
+    rgba(61, 153, 112, 0.85)
+  );
+  padding-bottom: 30px;
+  width: 100%;
+  margin: 0;
+}
+
+button {
+  font-family: "Noto Sans JP";
+  font-size: 18px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #d3d3d3;
+  width: 90px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  opacity: 0.4;
+}
+
+.preview-btn {
+  padding: 0;
+  text-align: center;
+  font-size: 10px;
+  width: 30%;
+  height: 10%;
+}
+audio {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  outline: none;
+}
